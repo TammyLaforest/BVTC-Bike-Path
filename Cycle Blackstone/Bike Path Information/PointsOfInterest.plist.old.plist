@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>La Sorpresa</string>
+		<key>town</key>
+		<string>Central Falls</string>
+		<key>type</key>
+		<string>Food</string>
+		<key>address</key>
+		<string>723 Broad Street</string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{0.0,0.0}</string>
+		<key>hours</key>
+		<string>M-Sat 5 am - 10 pm, Sun 6 am- 6 pm</string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string>401-475-0099</string>
+		<key>specialty</key>
+		<string>Columbian fast food/empandas, natural passion fruit &amp; blackberry juices</string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string>yes</string>
+		<key>recycling</key>
+		<string>yes</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Beirao Café Restaurante</string>
+		<key>town</key>
+		<string>Central Falls</string>
+		<key>type</key>
+		<string>Food</string>
+		<key>address</key>
+		<string>1374 Broad St.</string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{41.8984937,-71.3915601}</string>
+		<key>hours</key>
+		<string>10 am - midnight</string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string>729-9766</string>
+		<key>specialty</key>
+		<string>Portuguese restaurant</string>
+		<key>bikerSpecial</key>
+		<string>free drink with order</string>
+		<key>bathroom</key>
+		<string>yes</string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string>yes</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Everybodys Favorite</string>
+		<key>town</key>
+		<string>Cumberland</string>
+		<key>type</key>
+		<string>Food</string>
+		<key>address</key>
+		<string>1370 Mendon Road</string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{0.0,0.0}</string>
+		<key>hours</key>
+		<string>6 am- 2pm M-F , Sat. 6-1, Sun. 7-1</string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string>333-5035</string>
+		<key>specialty</key>
+		<string>weekends offer baked omelets</string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string>yes</string>
+		<key>bikeParking</key>
+		<string>yes</string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Blackstone Bicycles</string>
+		<key>town</key>
+		<string>Cumberland</string>
+		<key>type</key>
+		<string>Shop</string>
+		<key>address</key>
+		<string>391 Mendon Road </string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{41.9195621,-71.4095684}</string>
+		<key>hours</key>
+		<string>M-F 12-6 Sat. 10-6 closed Sunday</string>
+		<key>website</key>
+		<string>http://blackstonebicycles.com/</string>
+		<key>phone</key>
+		<string>335-3163</string>
+		<key>specialty</key>
+		<string>bike rentals &amp; repair</string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Valley Falls Heritge Park </string>
+		<key>town</key>
+		<string>Cumberland </string>
+		<key>type</key>
+		<string>Sight</string>
+		<key>address</key>
+		<string>45 Broad Street </string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{41.900544,-71.3926927}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Cumberland Town Hall</string>
+		<key>town</key>
+		<string>Cumberland</string>
+		<key>type</key>
+		<string>Sight</string>
+		<key>address</key>
+		<string>45 Broad Street </string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{41.9005194,-71.3926329}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Harry&apos;s Bar &amp; Burger</string>
+		<key>town</key>
+		<string>Lincoln</string>
+		<key>type</key>
+		<string>Food</string>
+		<key>address</key>
+		<string>200 Front Street</string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{41.904096,-71.4104097}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string>http://www.harrysbarburger.com/lincoln/front-st/</string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string>100% pure Hereford beef sliders, huge selection of craft beers. </string>
+		<key>bikerSpecial</key>
+		<string>Half price burgers from 3-5 pm everyday</string>
+		<key>bathroom</key>
+		<string>yes</string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Capt. Wilbur Kelly House</string>
+		<key>town</key>
+		<string>Lincoln</string>
+		<key>type</key>
+		<string>Food</string>
+		<key>address</key>
+		<string>1075 Lower  River Rd.</string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{41.9220378,-71.4494889}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Blackstone Bikeway &amp; Visitor Center</string>
+		<key>town</key>
+		<string>Lincoln</string>
+		<key>type</key>
+		<string>Sight</string>
+		<key>address</key>
+		<string>US Interstate 295 North</string>
+		<key>parking</key>
+		<string>yes</string>
+		<key>location</key>
+		<string>{41.9306534,-71.4506905}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string>http://www.riparks.com/Locations/LocationBlackstoneBikeVisit.html</string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string>parking, electric vehicle charging station</string>
+		<key>bathroom</key>
+		<string>yes</string>
+		<key>bikeParking</key>
+		<string>yes</string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Blackstone River State Park</string>
+		<key>town</key>
+		<string>Lincoln</string>
+		<key>type</key>
+		<string>Sight</string>
+		<key>address</key>
+		<string></string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{0.0,0.0}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Maplehurst Diner </string>
+		<key>town</key>
+		<string>Lincoln</string>
+		<key>type</key>
+		<string>Food</string>
+		<key>address</key>
+		<string>276 Front Street</string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{41.9030936,-71.4133}</string>
+		<key>hours</key>
+		<string>Diner Tues- Sun 7 - 3; Fri 7-7.</string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string>305-3789</string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string>free beverage to every cyclist visiting</string>
+		<key>bathroom</key>
+		<string>yes</string>
+		<key>bikeParking</key>
+		<string>yes </string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lincoln Creamery </string>
+		<key>town</key>
+		<string>Lincoln</string>
+		<key>type</key>
+		<string>Food</string>
+		<key>address</key>
+		<string>276 Front Street</string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{41.903091,-71.4133027}</string>
+		<key>hours</key>
+		<string>Ice Cream seasonally- 12- 10 pm:</string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string>305-3789</string>
+		<key>specialty</key>
+		<string>Voted Best Ice Cream in the Valley.   </string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string>yes</string>
+		<key>bikeParking</key>
+		<string>yes</string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Paul S. Kelly Complex - Meadows Park</string>
+		<key>town</key>
+		<string>North Smithfield</string>
+		<key>type</key>
+		<string>Sight</string>
+		<key>address</key>
+		<string>Mill Street</string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{0.0,0.0}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string>https://www.nsmithfieldri.org/parks-recreation/pages/recreation-facilities</string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Plouffe&apos;s Diner &amp; Pizza Pub</string>
+		<key>town</key>
+		<string>Pawtucket</string>
+		<key>type</key>
+		<string>Food</string>
+		<key>address</key>
+		<string>267 Main Street</string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{41.877885,-71.3880387}</string>
+		<key>hours</key>
+		<string>7-3 M- Sat, Sun 8-2</string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string>722-0890</string>
+		<key>specialty</key>
+		<string>diner</string>
+		<key>bikerSpecial</key>
+		<string>3 wieners all the way with fries $7</string>
+		<key>bathroom</key>
+		<string>yes</string>
+		<key>bikeParking</key>
+		<string>yes</string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Slater Mill Historic Site</string>
+		<key>town</key>
+		<string>Pawtucket</string>
+		<key>type</key>
+		<string>Sight</string>
+		<key>address</key>
+		<string>67 Roosevelt Avenue</string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{41.877547,-71.3846026}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string>http://www.slatermill.org/</string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Wildflour Bakery &amp; Café</string>
+		<key>town</key>
+		<string>Pawtucket</string>
+		<key>type</key>
+		<string>Food</string>
+		<key>address</key>
+		<string>727 East Avenue</string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{41.8582719,-71.3934099}</string>
+		<key>hours</key>
+		<string>M-Th 7 am- 9pm, F -Sat 7am-10pm, Sun 8 am- 9pm</string>
+		<key>website</key>
+		<string>http://www.wildflourbakerycafe.com/</string>
+		<key>phone</key>
+		<string>475-4718</string>
+		<key>specialty</key>
+		<string>Vegan bakery, fresh juice &amp; smoothies, healthly snacks &amp; sweet vegan treats.</string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string>yes</string>
+		<key>bikeParking</key>
+		<string>yes</string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Modern Diner</string>
+		<key>town</key>
+		<string>Pawtucket</string>
+		<key>type</key>
+		<string>Food</string>
+		<key>address</key>
+		<string>364 East Avenue</string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{41.8688334,-71.3890648}</string>
+		<key>hours</key>
+		<string>M- Sat 6 am - 2 pm; Sun 7-2</string>
+		<key>website</key>
+		<string>https://moderndinerri.com/</string>
+		<key>phone</key>
+		<string>726-8390</string>
+		<key>specialty</key>
+		<string>Delicious &amp; unique breakfast specials.  Custard French Toast rated #1 Diner Dish by Food Network</string>
+		<key>bikerSpecial</key>
+		<string>offers take out</string>
+		<key>bathroom</key>
+		<string>yes</string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lippett Memorial Park</string>
+		<key>town</key>
+		<string>Providence</string>
+		<key>type</key>
+		<string>Sight</string>
+		<key>address</key>
+		<string>1015 Hope St. </string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{41.8546515,-71.3937064}</string>
+		<key>hours</key>
+		<string>Farmers Market- Saturdays May - Oct.</string>
+		<key>website</key>
+		<string>http://www.hopestreetmarket.com/</string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string>park, farmers market</string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string>yes</string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hilton Garden Inn Providence</string>
+		<key>town</key>
+		<string>Providence</string>
+		<key>type</key>
+		<string>Sight</string>
+		<key>address</key>
+		<string>220 India Street</string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{41.81858,-71.3933407}</string>
+		<key>hours</key>
+		<string>24 hours a day</string>
+		<key>website</key>
+		<string>http://hiltongardeninn3.hilton.com/en/hotels/rhode-island/hilton-garden-inn-providence-PVDISGI/index.html</string>
+		<key>phone</key>
+		<string>272-5577</string>
+		<key>specialty</key>
+		<string>Outdoor patio with waterviews. Breakfast &amp; dinner restaurant, and gift shop for snacks.</string>
+		<key>bikerSpecial</key>
+		<string>hotel guest can use bikes.</string>
+		<key>bathroom</key>
+		<string>yes</string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>The Museum of Work &amp; Culture</string>
+		<key>town</key>
+		<string>Woonsocket</string>
+		<key>type</key>
+		<string>Sight</string>
+		<key>address</key>
+		<string>42 South Street</string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{41.9992917,-71.5183071}</string>
+		<key>hours</key>
+		<string>T- F 930 am - 4 pm; Sat 10 am -4 pm; Sun 1 pm -4 pm</string>
+		<key>website</key>
+		<string>http://www.woonsocket.org/workandculture.htm</string>
+		<key>phone</key>
+		<string>769-9675</string>
+		<key>specialty</key>
+		<string>museum</string>
+		<key>bikerSpecial</key>
+		<string>Free admission to Merce Box Car Exhibit</string>
+		<key>bathroom</key>
+		<string>yes</string>
+		<key>bikeParking</key>
+		<string>yes</string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Aroma CT Café</string>
+		<key>town</key>
+		<string>Woonsocket</string>
+		<key>type</key>
+		<string>Food</string>
+		<key>address</key>
+		<string>17 Front Street</string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{42.002002,-71.5132877}</string>
+		<key>hours</key>
+		<string>24 hours/7 days</string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string>762-1606</string>
+		<key>specialty</key>
+		<string>fresh baked donuts, Authentic Lebanese shawarma, burgers, wings, omelets</string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string>yes</string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Cold Spring Park </string>
+		<key>town</key>
+		<string>Woonsocket</string>
+		<key>type</key>
+		<string>Sight</string>
+		<key>address</key>
+		<string></string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{42.0091072,-71.5274751}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string>https://www.woonsocketri.org/parks-recreation/pages/cold-spring-park</string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Rivers Edge Complex</string>
+		<key>town</key>
+		<string>Woonsocket</string>
+		<key>type</key>
+		<string>Sight</string>
+		<key>address</key>
+		<string></string>
+		<key>parking</key>
+		<string>yes</string>
+		<key>location</key>
+		<string>{42.0009831,-71.5006721}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string>https://www.woonsocketri.org/parks-recreation/pages/rivers-edge-complex</string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ye Olde English Fish &amp; Chips</string>
+		<key>town</key>
+		<string>Woonsocket</string>
+		<key>type</key>
+		<string>Food</string>
+		<key>address</key>
+		<string>25 South Main St.</string>
+		<key>parking</key>
+		<string></string>
+		<key>location</key>
+		<string>{42.0002,-71.5193721}</string>
+		<key>hours</key>
+		<string>Tues- Sat</string>
+		<key>website</key>
+		<string>http://www.yeoldeenglishfishandchips.com/</string>
+		<key>phone</key>
+		<string>762-3637</string>
+		<key>specialty</key>
+		<string>Fish &amp; Chips; seafood</string>
+		<key>bikerSpecial</key>
+		<string>Free cup of red clam chowder or white seafood chowder with purchase.</string>
+		<key>bathroom</key>
+		<string>yes</string>
+		<key>bikeParking</key>
+		<string>yes</string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Central Parking</string>
+		<key>town</key>
+		<string>Lincoln</string>
+		<key>type</key>
+		<string>Park</string>
+		<key>address</key>
+		<string></string>
+		<key>parking</key>
+		<string>yes</string>
+		<key>location</key>
+		<string>{41.939547,-71.444603}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lonsdale Drive In Parking</string>
+		<key>town</key>
+		<string>Cumberland</string>
+		<key>type</key>
+		<string>Park</string>
+		<key>address</key>
+		<string></string>
+		<key>parking</key>
+		<string>yes</string>
+		<key>location</key>
+		<string>{41.907099,-71.401076}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Front Street Parking</string>
+		<key>town</key>
+		<string>Lincoln</string>
+		<key>type</key>
+		<string>Park</string>
+		<key>address</key>
+		<string></string>
+		<key>parking</key>
+		<string>yes</string>
+		<key>location</key>
+		<string>{41.911229,-71.408324}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ashton Village Parking</string>
+		<key>town</key>
+		<string>Cumberland</string>
+		<key>type</key>
+		<string>Park</string>
+		<key>address</key>
+		<string></string>
+		<key>parking</key>
+		<string>yes</string>
+		<key>location</key>
+		<string>{41.9333281,-71.43018175}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>116 Parking</string>
+		<key>town</key>
+		<string>Lincoln</string>
+		<key>type</key>
+		<string>Park</string>
+		<key>address</key>
+		<string></string>
+		<key>parking</key>
+		<string>yes</string>
+		<key>location</key>
+		<string>{41.9333281,-71.43018175}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Albion Parking</string>
+		<key>town</key>
+		<string>Cumberland</string>
+		<key>type</key>
+		<string>Park</string>
+		<key>address</key>
+		<string></string>
+		<key>parking</key>
+		<string>yes</string>
+		<key>location</key>
+		<string>{41.95212957,-71.44721914}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Manville Parking</string>
+		<key>town</key>
+		<string>Lincoln</string>
+		<key>type</key>
+		<string>Park</string>
+		<key>address</key>
+		<string></string>
+		<key>parking</key>
+		<string>yes</string>
+		<key>location</key>
+		<string>{41.96556492,-71.46348405}</string>
+		<key>hours</key>
+		<string></string>
+		<key>website</key>
+		<string></string>
+		<key>phone</key>
+		<string></string>
+		<key>specialty</key>
+		<string></string>
+		<key>bikerSpecial</key>
+		<string></string>
+		<key>bathroom</key>
+		<string></string>
+		<key>bikeParking</key>
+		<string></string>
+		<key>recycling</key>
+		<string></string>
+	</dict>
+</array>
+</plist>
