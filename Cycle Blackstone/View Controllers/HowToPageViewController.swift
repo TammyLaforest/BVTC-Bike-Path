@@ -14,7 +14,12 @@ class HowToPageViewController: UIPageViewController, UIPageViewControllerDelegat
         return [
             UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HowToViewController1") as! HowToViewController1,
             UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HowToViewController2") as! HowToViewController2,
-            UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HowToViewController3") as! HowToViewController3
+			
+			
+				UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HowToViewController4") as! HowToViewController4,
+			
+			UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HowToViewController3") as! HowToViewController3
+			
         ]
     }()
     

@@ -10,7 +10,14 @@ import UIKit
 
 class HowToViewController1: UIViewController {
     
-    override func viewDidLoad() {
+	@IBOutlet weak var page1: UIPageControl!
+	
+	@IBOutlet weak var page1Text: UILabel!
+	
+	
+	@IBOutlet weak var page1Logo: UIImageView!
+	
+	override func viewDidLoad() {
         super.viewDidLoad()
         
     }

@@ -51,6 +51,7 @@
 		B2DFA45C208EA07900750C77 /* DrivingAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFA45B208EA07900750C77 /* DrivingAnnotation.swift */; };
 		B2DFA45E208EA0E100750C77 /* DrivingAnnotationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFA45D208EA0E100750C77 /* DrivingAnnotationViews.swift */; };
 		B2DFA460208EA94A00750C77 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFA45F208EA94A00750C77 /* RegisterViewController.swift */; };
+		CEE91FE022EE5CC9000B9E41 /* HowToViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE91FDF22EE5CC9000B9E41 /* HowToViewController4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +101,7 @@
 		B2DFA45B208EA07900750C77 /* DrivingAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingAnnotation.swift; sourceTree = "<group>"; };
 		B2DFA45D208EA0E100750C77 /* DrivingAnnotationViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingAnnotationViews.swift; sourceTree = "<group>"; };
 		B2DFA45F208EA94A00750C77 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CEE91FDF22EE5CC9000B9E41 /* HowToViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToViewController4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +240,7 @@
 				B2736B7F21B8CF4E00DBEB6F /* HowToViewController1.swift */,
 				B2736B8321BA1EB500DBEB6F /* HowToViewController2.swift */,
 				B2736B8521BA1EC500DBEB6F /* HowToViewController3.swift */,
+				CEE91FDF22EE5CC9000B9E41 /* HowToViewController4.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				B2DFA426208598B700750C77 /* ParkMapOverlayView.swift in Sources */,
 				B2736B8421BA1EB500DBEB6F /* HowToViewController2.swift in Sources */,
 				B2736B8021B8CF4F00DBEB6F /* HowToViewController1.swift in Sources */,
+				CEE91FE022EE5CC9000B9E41 /* HowToViewController4.swift in Sources */,
 				B2DFA458208E71F000750C77 /* BikePathViewController.swift in Sources */,
 				B2DFA42C208598B700750C77 /* MapOptionsViewController.swift in Sources */,
 				B2DFA460208EA94A00750C77 /* RegisterViewController.swift in Sources */,

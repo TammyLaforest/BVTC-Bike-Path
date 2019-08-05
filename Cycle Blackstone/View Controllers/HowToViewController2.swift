@@ -10,7 +10,15 @@ import UIKit
 
 class HowToViewController2: UIViewController {
     
-    override func viewDidLoad() {
+	@IBOutlet weak var titleLabel: UILabel!
+	
+	@IBOutlet weak var mainText: UILabel!
+	
+	
+	
+	@IBOutlet weak var pageTracker: UIPageControl!
+	
+	override func viewDidLoad() {
         super.viewDidLoad()
         
     }
