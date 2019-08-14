@@ -174,7 +174,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="LfW-iL-S5B"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -183,7 +183,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="UdR-cX-uc5"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -192,7 +192,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="RiT-Ox-4o8"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -201,7 +201,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="ABp-9h-3Pd"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -230,10 +230,11 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RkG-Nb-ahE">
-                                <rect key="frame" x="163" y="409" width="49" height="30"/>
+                                <rect key="frame" x="150.5" y="409" width="74" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="9wA-gs-MEm"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Submit"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Register" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsN-f0-H6k">
@@ -295,16 +296,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bike Stops" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGj-w6-yeM">
-                                <rect key="frame" x="16" y="41" width="343" height="42"/>
+                                <rect key="frame" x="16" y="20" width="343" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cSP-v3-Ezk">
-                                <rect key="frame" x="16" y="81" width="343" height="505"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="503" id="cHh-KN-CMh"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="60" width="343" height="547"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Our APP lists “Bike Stops” along the bikway; places we believe you should stop to eat, see, shop, and park your vehicle. These stops can be filtered by categories, which then appear on the map. 
@@ -336,21 +334,15 @@ The information feature will share why this stop is something to visit. Some sto
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="kxX-NT-Wf0" firstAttribute="bottom" secondItem="aqV-wr-GA2" secondAttribute="bottom" constant="30" id="4to-Jt-vKW"/>
-                            <constraint firstItem="cSP-v3-Ezk" firstAttribute="leading" secondItem="kxX-NT-Wf0" secondAttribute="leading" constant="16" id="CSa-Lb-JxK"/>
-                            <constraint firstItem="cSP-v3-Ezk" firstAttribute="centerY" secondItem="PZd-oj-MIJ" secondAttribute="centerY" id="HQP-19-wkZ"/>
-                            <constraint firstItem="cSP-v3-Ezk" firstAttribute="leading" secondItem="kxX-NT-Wf0" secondAttribute="leading" constant="16" id="IrY-Qt-mfO"/>
-                            <constraint firstItem="cSP-v3-Ezk" firstAttribute="centerX" secondItem="PZd-oj-MIJ" secondAttribute="centerX" id="Kam-q8-tRe"/>
-                            <constraint firstItem="pGj-w6-yeM" firstAttribute="top" secondItem="kxX-NT-Wf0" secondAttribute="top" constant="21" id="LHt-KP-lw1"/>
-                            <constraint firstItem="kxX-NT-Wf0" firstAttribute="trailing" secondItem="cSP-v3-Ezk" secondAttribute="trailing" constant="16" id="NwX-Dd-VrU"/>
-                            <constraint firstItem="kxX-NT-Wf0" firstAttribute="trailing" secondItem="cSP-v3-Ezk" secondAttribute="trailing" constant="16" id="TyJ-qR-Jhg"/>
-                            <constraint firstItem="aqV-wr-GA2" firstAttribute="centerX" secondItem="PZd-oj-MIJ" secondAttribute="centerX" id="aTJ-Cp-2Af"/>
-                            <constraint firstItem="cSP-v3-Ezk" firstAttribute="leading" secondItem="kxX-NT-Wf0" secondAttribute="leading" constant="16" id="aWM-rk-GBO"/>
-                            <constraint firstItem="pGj-w6-yeM" firstAttribute="leading" secondItem="cSP-v3-Ezk" secondAttribute="leading" id="ehi-L4-nno"/>
-                            <constraint firstItem="kxX-NT-Wf0" firstAttribute="trailing" secondItem="cSP-v3-Ezk" secondAttribute="trailing" constant="16" id="p37-D3-W3H"/>
-                            <constraint firstItem="cSP-v3-Ezk" firstAttribute="top" secondItem="kxX-NT-Wf0" secondAttribute="top" constant="61" id="qqT-ax-SE1"/>
-                            <constraint firstItem="pGj-w6-yeM" firstAttribute="trailing" secondItem="cSP-v3-Ezk" secondAttribute="trailing" id="tna-qy-BHY"/>
-                            <constraint firstItem="aqV-wr-GA2" firstAttribute="centerX" secondItem="PZd-oj-MIJ" secondAttribute="centerX" id="u0B-7a-BEa"/>
+                            <constraint firstItem="cSP-v3-Ezk" firstAttribute="leading" secondItem="kxX-NT-Wf0" secondAttribute="leading" constant="16" id="3pc-KC-zEs"/>
+                            <constraint firstItem="pGj-w6-yeM" firstAttribute="trailing" secondItem="cSP-v3-Ezk" secondAttribute="trailing" id="56g-82-ACX"/>
+                            <constraint firstItem="kxX-NT-Wf0" firstAttribute="bottom" secondItem="aqV-wr-GA2" secondAttribute="bottom" constant="30" id="5dM-kh-2hY"/>
+                            <constraint firstItem="pGj-w6-yeM" firstAttribute="leading" secondItem="cSP-v3-Ezk" secondAttribute="leading" id="Brt-44-HIX"/>
+                            <constraint firstItem="kxX-NT-Wf0" firstAttribute="bottom" secondItem="aqV-wr-GA2" secondAttribute="bottom" constant="30" id="PrU-0m-CWt"/>
+                            <constraint firstItem="kxX-NT-Wf0" firstAttribute="trailing" secondItem="cSP-v3-Ezk" secondAttribute="trailing" constant="16" id="bP0-XY-Aq3"/>
+                            <constraint firstItem="cSP-v3-Ezk" firstAttribute="centerY" secondItem="PZd-oj-MIJ" secondAttribute="centerY" id="sqX-vH-may"/>
+                            <constraint firstItem="aqV-wr-GA2" firstAttribute="centerX" secondItem="PZd-oj-MIJ" secondAttribute="centerX" id="xcU-DJ-vX2"/>
+                            <constraint firstItem="cSP-v3-Ezk" firstAttribute="top" secondItem="pGj-w6-yeM" secondAttribute="bottom" constant="-2" id="yex-Wa-07M"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="kxX-NT-Wf0"/>
                     </view>
@@ -466,13 +458,6 @@ The information feature will share why this stop is something to visit. Some sto
                                 <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to the Blackstone River Bikeway" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfL-1C-uyf">
-                                <rect key="frame" x="16" y="50" width="343" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYz-8o-2UH">
                                 <rect key="frame" x="101" y="562" width="172" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -491,6 +476,15 @@ The information feature will share why this stop is something to visit. Some sto
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
+                            </label>
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to the Blackstone River Bikeway" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfL-1C-uyf">
+                                <rect key="frame" x="16" y="73" width="343" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.41340779049295778" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
+                                <color key="textColor" red="0.17346400837677517" green="0.17406532430895871" blue="0.14810065452046042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.29411764709999999" green="0.46274509800000002" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -574,7 +568,7 @@ The information feature will share why this stop is something to visit. Some sto
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone5s-744x1392-wallpaper_03204" translatesAutoresizingMaskIntoConstraints="NO" id="WoB-UU-tkz">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bike path" translatesAutoresizingMaskIntoConstraints="NO" id="WoB-UU-tkz">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -590,6 +584,7 @@ The information feature will share why this stop is something to visit. Some sto
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BpZ-uA-mGR">
                                 <rect key="frame" x="16" y="252" width="343" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -597,6 +592,7 @@ The information feature will share why this stop is something to visit. Some sto
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czf-nf-9Pl">
                                 <rect key="frame" x="16" y="370" width="343" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -604,6 +600,7 @@ The information feature will share why this stop is something to visit. Some sto
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDe-Aw-oli">
                                 <rect key="frame" x="16" y="420" width="343" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -611,6 +608,7 @@ The information feature will share why this stop is something to visit. Some sto
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dX-Aw-Cdb">
                                 <rect key="frame" x="16" y="470" width="343" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -618,6 +616,7 @@ The information feature will share why this stop is something to visit. Some sto
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1d-jk-FT5">
                                 <rect key="frame" x="16" y="520" width="343" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -625,6 +624,7 @@ The information feature will share why this stop is something to visit. Some sto
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0E-Aq-ee5">
                                 <rect key="frame" x="16" y="570" width="343" height="42.000000000000227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -795,18 +795,18 @@ The Blackstone Valley of Rhode Island and Massachusetts is the birthplace of the
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" defersCurrentPageDisplay="YES" numberOfPages="4" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="ibq-eS-xC3">
-                                <rect key="frame" x="160" y="600" width="55" height="37"/>
+                                <rect key="frame" x="160" y="599" width="55" height="38"/>
                                 <color key="pageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="currentPageIndicatorTintColor" red="0.99232504399999999" green="0.2323179692" blue="0.23232188819999999" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                             </pageControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bike Path" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57E-dP-YqW">
-                                <rect key="frame" x="16" y="41" width="343" height="42"/>
+                                <rect key="frame" x="16" y="41" width="343" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FDw-uw-EyG">
-                                <rect key="frame" x="16" y="78" width="343" height="514"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FDw-uw-EyG">
+                                <rect key="frame" x="16" y="71" width="343" height="525"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Click on Bike Path. A map will display the complete bikeway. This can be expanded to “zoom in” for more details. 
@@ -830,16 +830,18 @@ Purple sections = Signed Bicycle Routes (On-road. Road shared with bicycles and 
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="FDw-uw-EyG" firstAttribute="leading" secondItem="xY2-Me-XL8" secondAttribute="leading" constant="16" id="5is-xg-CUg"/>
-                            <constraint firstItem="xY2-Me-XL8" firstAttribute="trailing" secondItem="FDw-uw-EyG" secondAttribute="trailing" constant="16" id="JM3-e7-y6h"/>
-                            <constraint firstItem="57E-dP-YqW" firstAttribute="top" secondItem="xY2-Me-XL8" secondAttribute="top" constant="21" id="P4t-Q9-1yt"/>
-                            <constraint firstItem="57E-dP-YqW" firstAttribute="centerX" secondItem="Ref-YB-5fN" secondAttribute="centerX" id="Ped-Bz-gBG"/>
-                            <constraint firstItem="FDw-uw-EyG" firstAttribute="centerY" secondItem="Ref-YB-5fN" secondAttribute="centerY" id="dyt-mT-Ib3"/>
-                            <constraint firstItem="ibq-eS-xC3" firstAttribute="centerX" secondItem="Ref-YB-5fN" secondAttribute="centerX" id="gIm-Ay-0KC"/>
-                            <constraint firstItem="xY2-Me-XL8" firstAttribute="bottom" secondItem="ibq-eS-xC3" secondAttribute="bottom" constant="30" id="kTU-Md-E5I"/>
-                            <constraint firstItem="FDw-uw-EyG" firstAttribute="centerX" secondItem="Ref-YB-5fN" secondAttribute="centerX" id="s8L-Ea-tsk"/>
-                            <constraint firstItem="57E-dP-YqW" firstAttribute="leading" secondItem="xY2-Me-XL8" secondAttribute="leading" constant="16" id="smL-ZX-I11"/>
-                            <constraint firstItem="xY2-Me-XL8" firstAttribute="trailing" secondItem="57E-dP-YqW" secondAttribute="trailing" constant="16" id="wgL-ln-Sui"/>
+                            <constraint firstItem="57E-dP-YqW" firstAttribute="trailing" secondItem="FDw-uw-EyG" secondAttribute="trailing" id="2DV-F8-jxA"/>
+                            <constraint firstItem="57E-dP-YqW" firstAttribute="leading" secondItem="FDw-uw-EyG" secondAttribute="leading" id="2jc-Gx-NA3"/>
+                            <constraint firstItem="FDw-uw-EyG" firstAttribute="centerY" secondItem="Ref-YB-5fN" secondAttribute="centerY" id="F39-Ai-2bS"/>
+                            <constraint firstItem="xY2-Me-XL8" firstAttribute="bottom" secondItem="ibq-eS-xC3" secondAttribute="bottom" constant="30" id="Jxx-kj-tVd"/>
+                            <constraint firstItem="57E-dP-YqW" firstAttribute="centerX" secondItem="Ref-YB-5fN" secondAttribute="centerX" id="NNI-Uh-reX"/>
+                            <constraint firstItem="ibq-eS-xC3" firstAttribute="top" secondItem="FDw-uw-EyG" secondAttribute="bottom" constant="3" id="OCD-fb-Mkc"/>
+                            <constraint firstItem="57E-dP-YqW" firstAttribute="top" secondItem="xY2-Me-XL8" secondAttribute="top" constant="21" id="Z0w-4s-pep"/>
+                            <constraint firstItem="FDw-uw-EyG" firstAttribute="top" secondItem="xY2-Me-XL8" secondAttribute="top" constant="51" id="dXv-41-kyd"/>
+                            <constraint firstItem="ibq-eS-xC3" firstAttribute="centerX" secondItem="Ref-YB-5fN" secondAttribute="centerX" id="i4s-Ge-bp5"/>
+                            <constraint firstItem="FDw-uw-EyG" firstAttribute="leading" secondItem="xY2-Me-XL8" secondAttribute="leading" constant="16" id="ivf-UO-kYj"/>
+                            <constraint firstItem="FDw-uw-EyG" firstAttribute="top" secondItem="57E-dP-YqW" secondAttribute="bottom" constant="-5" id="unX-B9-Ctd"/>
+                            <constraint firstItem="xY2-Me-XL8" firstAttribute="trailing" secondItem="FDw-uw-EyG" secondAttribute="trailing" constant="16" id="xga-xk-2Ml"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xY2-Me-XL8"/>
                     </view>
@@ -943,10 +945,10 @@ Purple sections = Signed Bicycle Routes (On-road. Road shared with bicycles and 
         <image name="BRB Path with Walk" width="5192" height="3463"/>
         <image name="Fall Cyclist" width="500" height="500"/>
         <image name="SurveryBackground" width="6000" height="4000"/>
-        <image name="iphone5s-744x1392-wallpaper_03204" width="744" height="1392"/>
+        <image name="bike path" width="1024" height="768"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="o3X-5B-q3l"/>
-        <segue reference="zKS-3w-hy1"/>
+        <segue reference="xtv-8o-Dgq"/>
+        <segue reference="JYc-Hp-I9f"/>
     </inferredMetricsTieBreakers>
 </document>
