@@ -35,7 +35,7 @@ class AnnotationDetailsViewController: UIViewController {
         titleBackGroundImage.alpha = 0.5
         titleBackGroundImage.backgroundColor = UIColor.gray
         imageView.image = UIImage.init(named: imageName)
-        imageView.contentMode = UIViewContentMode.scaleAspectFit
+        imageView.contentMode = UIView.ContentMode.scaleAspectFit
         
         if poi.address.count > 1 {
             addressLabel.text = "Address: " + poi.address

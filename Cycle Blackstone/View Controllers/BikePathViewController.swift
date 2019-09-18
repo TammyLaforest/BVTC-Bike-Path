@@ -112,21 +112,21 @@ class BikePathViewController: UIViewController {
     
     let regionRadius: CLLocationDistance = 20000
     func centerMapOnLocation(location: CLLocation) {
-        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
-                                                                  regionRadius, regionRadius)
+        let coordinateRegion = MKCoordinateRegion.init(center: location.coordinate,
+                                                                  latitudinalMeters: regionRadius, longitudinalMeters: regionRadius)
         mapView.setRegion(coordinateRegion, animated: true)
     }
     
     func addRoute(_ plist:String) {
         guard let points = BikePath.plist(plist) as? [String] else { return }
         
-        let cgPoints = points.map { CGPointFromString($0) }
+        let cgPoints = points.map { NSCoder.cgPoint(for: $0) }
         let coords = cgPoints.map { CLLocationCoordinate2DMake(CLLocationDegrees($0.x), CLLocationDegrees($0.y)) }
         let myPolyline = MKPolyline(coordinates: coords, count: coords.count)
         
         polyLineArray.append(myPolyline)
         
-        mapView.add(myPolyline)
+        mapView.addOverlay(myPolyline)
         
     }
     
@@ -202,7 +202,7 @@ class BikePathViewController: UIViewController {
         loadInitialData()
         
         for polyline in polyLineArray{
-            mapView.add(polyline)
+            mapView.addOverlay(polyline)
         }
         mapView.addAnnotations(pointsOfInterest)
         mapView.addAnnotations(drivingAnnotations)

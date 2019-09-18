@@ -44,21 +44,18 @@ class SurveyViewController: UIViewController {
         
         SubmitButton.layer.cornerRadius = 10.0
         
-        SightseeingToggle.backgroundColor = unconfirmColor
+       // colors to form check boxes
+		SightseeingToggle.backgroundColor = unconfirmColor
         TransportationToggle.backgroundColor = unconfirmColor
         ExerciseToggle.backgroundColor = unconfirmColor
         
         backgroundButton1.backgroundColor = unconfirmColor
         backgroundButton2.backgroundColor = unconfirmColor
         backgroundButton3.backgroundColor = unconfirmColor
-        backgroundButton3.backgroundColor = unconfirmColor
-        
         backgroundButton1.layer.cornerRadius = cornerRadius
         backgroundButton2.layer.cornerRadius = cornerRadius
         backgroundButton3.layer.cornerRadius = cornerRadius
-        backgroundButton3.layer.cornerRadius = cornerRadius
-        
-        SightseeingToggle.layer.cornerRadius = 0.5 * SightseeingToggle.bounds.size.width
+      	SightseeingToggle.layer.cornerRadius = 0.5 * SightseeingToggle.bounds.size.width
         TransportationToggle.layer.cornerRadius = 0.5 * TransportationToggle.bounds.size.width
         ExerciseToggle.layer.cornerRadius = 0.5 * ExerciseToggle.bounds.size.width
     }

@@ -27,15 +27,15 @@ class BikePath {
     
     var overlayBoundingMapRect: MKMapRect {
         get {
-            let topLeft = MKMapPointForCoordinate(overlayTopLeftCoordinate)
-            let topRight = MKMapPointForCoordinate(overlayTopRightCoordinate)
-            let bottomLeft = MKMapPointForCoordinate(overlayBottomLeftCoordinate)
+            let topLeft = MKMapPoint.init(overlayTopLeftCoordinate)
+            let topRight = MKMapPoint.init(overlayTopRightCoordinate)
+            let bottomLeft = MKMapPoint.init(overlayBottomLeftCoordinate)
             
-            return MKMapRectMake(
-                topLeft.x,
-                topLeft.y,
-                fabs(topLeft.x - topRight.x),
-                fabs(topLeft.y - bottomLeft.y))
+            return MKMapRect.init(
+                x: topLeft.x,
+                y: topLeft.y,
+                width: fabs(topLeft.x - topRight.x),
+                height: fabs(topLeft.y - bottomLeft.y))
         }
     }
     
@@ -51,7 +51,7 @@ class BikePath {
         guard let coord = dict[fieldName] as? String else {
             return CLLocationCoordinate2D()
         }
-        let point = CGPointFromString(coord)
+        let point = NSCoder.cgPoint(for: coord)
         return CLLocationCoordinate2DMake(CLLocationDegrees(point.x), CLLocationDegrees(point.y))
     }
     
@@ -64,7 +64,7 @@ class BikePath {
         overlayTopRightCoordinate = BikePath.parseCoord(dict: properties, fieldName: "overlayTopRightCoord")
         overlayBottomLeftCoordinate = BikePath.parseCoord(dict: properties, fieldName: "overlayBottomLeftCoord")
         
-        let cgPoints = boundaryPoints.map { CGPointFromString($0) }
+        let cgPoints = boundaryPoints.map { NSCoder.cgPoint(for: $0) }
         boundary = cgPoints.map { CLLocationCoordinate2DMake(CLLocationDegrees($0.x), CLLocationDegrees($0.y)) }
     }
     
