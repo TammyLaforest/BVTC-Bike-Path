@@ -11,9 +11,5 @@ import UIKit
 
 class HowToViewController4: UIViewController {
 	
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		
-	}
 	
 }

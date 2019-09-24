@@ -228,19 +228,19 @@
 		B2DFA405208598B700750C77 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B2D442D5214F2141003B8884 /* SurveyViewController.swift */,
-				B2DFA409208598B700750C77 /* HomeScreenViewController.swift */,
-				B2DFA40A208598B700750C77 /* MapOptionsViewController.swift */,
-				B25A466320CDF2FA0047BE7E /* AnnotationListViewController.swift */,
-				B2DFA42E208E26C100750C77 /* AnnotationDetailsViewController.swift */,
-				B2DFA457208E71F000750C77 /* BikePathViewController.swift */,
-				B2DFA45F208EA94A00750C77 /* RegisterViewController.swift */,
 				B2D442D72151D56D003B8884 /* AboutViewController.swift */,
+				B2DFA42E208E26C100750C77 /* AnnotationDetailsViewController.swift */,
+				B25A466320CDF2FA0047BE7E /* AnnotationListViewController.swift */,
+				B2DFA457208E71F000750C77 /* BikePathViewController.swift */,
+				B2DFA409208598B700750C77 /* HomeScreenViewController.swift */,
 				B2736B8121BA199100DBEB6F /* HowToPageViewController.swift */,
 				B2736B7F21B8CF4E00DBEB6F /* HowToViewController1.swift */,
 				B2736B8321BA1EB500DBEB6F /* HowToViewController2.swift */,
 				B2736B8521BA1EC500DBEB6F /* HowToViewController3.swift */,
 				CEE91FDF22EE5CC9000B9E41 /* HowToViewController4.swift */,
+				B2DFA40A208598B700750C77 /* MapOptionsViewController.swift */,
+				B2DFA45F208EA94A00750C77 /* RegisterViewController.swift */,
+				B2D442D5214F2141003B8884 /* SurveyViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";

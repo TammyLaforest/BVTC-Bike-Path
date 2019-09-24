@@ -31,9 +31,9 @@ class AnnotationDetailsViewController: UIViewController {
         if poi.title?.range(of: "Parking") != nil {
             imageName = "Parking.jpg"
         }
-        titleBackGroundImage.layer.cornerRadius = 10
-        titleBackGroundImage.alpha = 0.5
-        titleBackGroundImage.backgroundColor = UIColor.gray
+//        titleBackGroundImage.layer.cornerRadius = 10
+//        titleBackGroundImage.alpha = 0.5
+//        titleBackGroundImage.backgroundColor = UIColor.gray
         imageView.image = UIImage.init(named: imageName)
         imageView.contentMode = UIView.ContentMode.scaleAspectFit
         
